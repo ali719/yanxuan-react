@@ -17,7 +17,7 @@ class Footer extends Component{
           <i className="iconfont icon-shouye3"></i>
           <span>首页</span>
         </NavLink>
-        <NavLink className="item" to="/thing">
+        <NavLink className="item " to="/thing">
           <i className="iconfont icon-wupin"></i>
           <span>识物</span>
         </NavLink>

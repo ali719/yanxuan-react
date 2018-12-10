@@ -6,4 +6,4 @@ export const HOME_DATA = 'home_data'
 // 分类数据
 export const CLASSIFY_DATA = 'classify_data'
 // 识物数据
-export const THIMG_DATA = 'thimg_data'
+export const THING_DATA = 'thing_data'

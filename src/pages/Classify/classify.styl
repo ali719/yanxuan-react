@@ -1,0 +1,88 @@
+#classify
+  width 100%
+  height 100%
+  overflow hidden
+  #header
+    background-color #fff
+    bottom-border-1px(#e4e4e4)
+    width 100%
+    height 45px
+    display flex
+    justify-content center
+    align-items center
+    position fixed
+    z-index 10
+    top 0
+    left 0
+    .search
+      width 355px
+      height 30px
+      background-color #EDEDED
+      border-radius 5px
+      font-size 14px
+      display flex
+      justify-content center
+      align-items center
+      span
+        color #666
+      .iconfont
+        font-size 20px
+  #content
+    background-color #fff
+    display flex
+    justify-content center
+    width 100%
+    height 572px
+    overflow hidden
+    margin-top 45px
+    margin-bottom 50px
+    .navigator
+      width 80px
+      border-right: 1px solid #e4e4e4
+      .navList
+        padding-top 15px
+        width 100%
+        li
+          width 100%
+          height 50px
+          line-height 50px
+          font-size 15px
+          font-weight 700
+          text-align center
+          &.active
+            color #b4282d
+            font-size 17px
+            border-left 2px solid #b4282d
+    .detail
+      width 80%
+      padding 20px 10px
+      .detailImg
+        width 275px
+        height 100px
+      .detailTitle
+        width 100%
+        height 55px
+        line-height 55px
+        font-size 14px
+        text-align center
+      .detailList
+        width 100%
+        display flex
+        flex-wrap wrap
+        justify-content flex-start
+        li
+          width 90px
+          height 100px
+          display flex
+          flex-direction column
+          justify-content space-around
+          align-items center
+          text-align center
+          .listImg
+            width 70px
+            height 70px
+          span
+            display inline-block
+            width 80px
+            height 20px
+            font-size 12px
